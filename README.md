@@ -1,5 +1,13 @@
 This server-sided endpoint provides the following details about a user's live Spotify statistics:
 
+Artist Name
+Image URL
+Playing Status
+Title Name
+Metadata
+
+The AMM-Spotify-API will return an endpoint such as below:
+
 {
   "artist":"artistname",
   "image":"imageurl",
