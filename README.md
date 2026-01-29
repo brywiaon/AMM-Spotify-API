@@ -4,7 +4,7 @@ Artist Name |
 Image URL |
 Playing Status |
 Title Name |
-Metadata |
+Metadata 
 
 The AMM-Spotify-API will return an endpoint such as below:
 
