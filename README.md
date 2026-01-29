@@ -33,4 +33,4 @@ By default, this "server" will run on 127.0.0.1:portnumber.
 
 If you'd like to change the location, please edit the IP on line 102 or the port on line 18.
 
-For online deployment, please use a service such as Cloudflare Zero Trust Tunnel using your own domain, as this endpoint only runs on a local port on your machine.
+For online deployment, please use a service such as Cloudflare Zero Trust Tunnel using your own domain with AMM-Spotify-API, as this endpoint only runs on a local port on your machine.
