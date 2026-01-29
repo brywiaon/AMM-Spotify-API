@@ -5,7 +5,7 @@ from spotipy.oauth2 import SpotifyOAuth
 
 CLIENT_ID = ""
 CLIENT_SECRET = ""
-REDIRECT_URI = “redirect_ui”
+REDIRECT_URI = 'redirect_ui”
 
 # esp32 specialized api key to access api
 API_KEY = ""  
