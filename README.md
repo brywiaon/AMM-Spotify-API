@@ -23,6 +23,8 @@ Place your Spotify CLIENT_ID on line 7.
 Place your Spotify CLIENT_SECRET on line 8.
 
 To have a standard baseline level of security, this enpoint requires an API_KEY, which must be consistent between the target URL and machine. Therefore, you must set a constant string of characters on this value, to ensure your data is only obtained by the target URL, and not be attackers.
+This is still not real security, and if you are using this AMM-Spotify-API oonline through the internet, please ensure you use a tunnel or a reverse proxy for real security.
+One recommended free tunnel to use if you're new to deploying services online is Cloudflare Zero Trust Tunnel.
 
 Set your API_KEY on line 12.
 
@@ -34,3 +36,5 @@ By default, this "server" will run on 127.0.0.1:portnumber.
 If you'd like to change the location, please edit the IP on line 102 or the port on line 18.
 
 For online deployment, please use a service such as Cloudflare Zero Trust Tunnel using your own domain with AMM-Spotify-API, as this endpoint only runs on a local port on your machine.
+
+Run by selecting the active directory, then running python amm-spotify-server.py or py amm-spotify-server.py.
