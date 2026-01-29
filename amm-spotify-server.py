@@ -3,6 +3,7 @@ from flask import Flask, jsonify, request, abort
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
+# obtain this from developer.spotify.com, and do not share your api keys!
 CLIENT_ID = ""
 CLIENT_SECRET = ""
 REDIRECT_URI = 'redirect_ui”
@@ -15,6 +16,8 @@ POLL_INTERVAL =
 
 # localhost port this “server” will run on
 PORT = 
+
+# IP Address that this code runs on is by default 127.0.0.1 or localhost, to change please edit line 102
 
 app = Flask(__name__)
 
